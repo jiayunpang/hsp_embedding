@@ -1,0 +1,29 @@
+FG,SMARTS
+Halides,"[F,Cl,Br,I]"
+F,[F]
+Cl,[Cl]
+Br,[Br]
+I,[I]
+Carbonyl,[CX3]=[OX1]
+Ketone,[#6][CX3](=O)[#6]
+Aldehyde,[CX3H1](=O)[#6]
+Amide,[NX3][CX3](=[OX1])[#6]
+Ester,[#6][CX3](=O)[OX2H0][#6]
+Carboxylic acid,[CX3](=O)[OX2H1]
+Alkene,"[$([cX3](:*):*),$([cX2+](:*):*),$([CX3]=*),$([CX2+]=*)]"
+Alkyne,[$([CX2]#C)]
+Aromatic carbons,"[$([cX3](:*):*),$([cX2+](:*):*)]"
+Nitrile,[NX1]#[CX2]
+1st/2nd amine,"[NX3;H2,H1;!$(NC=O)]"
+Nitro,"[$([NX3](=O)=O),$([NX3+](=O)[O-])][!#8]"
+Azo,[NX2]=[NX2]
+Alcohol,[OX2H]
+Ether inc. ester,[OD2]([#6])[#6]
+P,[P]
+S,[S]
+Thiol,[#16X2H]
+Thioamide,[NX3][CX3]=[SX1]
+Sulfonamide,"[$([#16X4]([NX3])(=[OX1])(=[OX1])[#6]),$([#16X4+2]([NX3])([OX1-])([OX1-])[#6])]"
+H-bond donor,"[!$([#6,H0,-,-2,-3])]"
+Acidic hydroxyl,"[$([OH]-*=[!#6])]"
+H-bond acceptor,"[!$([#6,F,Cl,Br,I,o,s,nX3,#7v5,#15v5,#16v4,#16v6,*+1,*+2,*+3])]"
