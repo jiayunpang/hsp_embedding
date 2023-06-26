@@ -34,10 +34,10 @@ The code is written in jupyter notebook and runs in an Anaconda environment. The
 1. Users should install Anaconda first (documentation [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html))
 2. Open Anaconda and install Rdkit (documentation [here](https://www.rdkit.org/docs/Install.html)) 
 
-    conda create -c conda-forge -n my-rdkit-env rdkit 
+        conda create -c conda-forge -n my-rdkit-env rdkit 
 
 3. After installation of RDkit, activate the Rdkit environment using the following command
-    conda activate my-rdkit-env 
+        conda activate my-rdkit-env 
 
 4. Within my-rdkit-env
 •	Install Scikit-learn (documentation [here](https://scikit-learn.org/stable/install.html)) 
