@@ -21,7 +21,7 @@ openbabel
 # Installation
 The code is written in jupyter notebook and runs in an Anaconda environment. The required packages and the guidance of how to set up the environment are listed below:
 
-1. Users should install Anaconda first (documentation [[here]([url](https://conda.io/projects/conda/en/latest/user-guide/install/index.html))] )
+1. Users should install Anaconda first (documentation [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 2. Open Anaconda and install Rdkit (documentation here) 
 conda create -c conda-forge -n my-rdkit-env rdkit 
 
