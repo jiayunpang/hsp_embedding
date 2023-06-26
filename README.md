@@ -23,33 +23,34 @@ The code is written in jupyter notebook and runs in an Anaconda environment. The
 
 1. Users should install Anaconda first (documentation [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html))
 2. Open Anaconda and install Rdkit (documentation [here](https://www.rdkit.org/docs/Install.html)) 
+
 conda create -c conda-forge -n my-rdkit-env rdkit 
 
 3. After installation of RDkit, activate the Rdkit environment using the following command
 conda activate my-rdkit-env 
 
 4. Within my-rdkit-env
-•	Install Scikit-learn (documentation here) 
+•	Install Scikit-learn (documentation [here](https://scikit-learn.org/stable/install.html)) 
 
 conda install scikit-learn  
 
-•	Install Jupyternotebook (documentation here) 
+•	Install Jupyternotebook (documentation [here](https://jupyter.org/install)) 
 
 conda install -c conda-forge notebook  
 
-•	Install pytorch (documentation here) 
+•	Install pytorch (documentation [here](https://pytorch.org/get-started/locally/)) 
 
 conda install pytorch torchvision torchaudio -c pytorch
 
-•	Install Transformers (documentation here) 
+•	Install Transformers (documentation [here](https://huggingface.co/docs/transformers/v4.15.0/installation)) 
 
 pip install transformers
 
-•	Install mol2vec https://github.com/samoturk/mol2vec
+•	Install mol2vec (documentation [here](https://github.com/samoturk/mol2vec))
 
 pip install git+https://github.com/samoturk/mol2vec
 
-•	Install BertViz (documentation here) 
+•	Install BertViz (documentation [here](https://github.com/jessevig/bertviz/blob/master/README.md)) 
 
 pip install bertviz
 pip install ipywidgets
