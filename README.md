@@ -37,12 +37,13 @@ The code is written in jupyter notebook and runs in an Anaconda environment. The
         conda create -c conda-forge -n my-rdkit-env rdkit 
 
 3. After installation of RDkit, activate the Rdkit environment using the following command
+
         conda activate my-rdkit-env 
 
-4. Within my-rdkit-env
+6. Within my-rdkit-env
 •	Install Scikit-learn (documentation [here](https://scikit-learn.org/stable/install.html)) 
 
-    conda install scikit-learn  
+        conda install scikit-learn  
 
 •	Install Jupyternotebook (documentation [here](https://jupyter.org/install)) 
 
