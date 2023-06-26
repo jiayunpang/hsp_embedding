@@ -6,16 +6,27 @@ We used the Morgan fingerprint approach and two NPL-based embedding models to pr
 
 # Requirements
 NumPy
+
 Matplotlib
+
 Pandas
+
 RDKit
+
 Scikit-learn
+
 Jupyter notebook
+
 Pytorch
+
 Huggingface/Transformers
+
 Mol2vec
+
 Bertviz
+
 openbabel
+
 
 # Installation
 The code is written in jupyter notebook and runs in an Anaconda environment. The required packages and the guidance of how to set up the environment are listed below:
