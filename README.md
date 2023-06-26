@@ -98,4 +98,3 @@ Code to analyse the functional groups of the outlier is provided in outliers_fun
 
 # Contact
 Jiayun Pang, twitter handle @JiayunPang, email j.pang@gre.ac.uk
-![image](https://github.com/jiayunpang/hsp_embedding/assets/137286135/839bcc96-be80-475d-b4b3-fa9b647faa83)
