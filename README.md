@@ -58,3 +58,44 @@ pip install ipywidgets
 •	Install openbabel
 
 conda install -c conda-forge openbabel
+
+# Disclaimer
+The code was written by non-experts in order to perform a specific task with a specific dataset. Please exercise caution and initiative in deploying the code. 
+
+# Usage
+Users should first set up the Anaconda environment with the packages listed in Installation, then use jupyter notebook to run the code. 
+
+In dataset/
+The Hansen dataset  Hansen_1k_smiles_shorter.csv and ESOL datasets esol.csv are provided.
+
+The two datasets were split for 6 folds for cross-validation and an example split is provided. 
+esol_bert_ds*.csv
+hansen_d_bert_ds*.csv
+hansen_h_bert_ds*.csv
+hansen_p_bert_ds*.csv
+
+Code to train the models and make prediction is available in the following 5 folders. 
+fps_xgboost/
+mol2vec_xgboost/
+mol2vec_ffnn/
+ChemBERTa-zinc-base-v1/
+ChemBERTa_77M_MTR/
+
+Running time for the Morgan fingerprint (fps) models is under 1 min. 
+Mol2vec models complete under ~5 mins. 
+Finetuning BERT models requires GPUs and takes approximately 5-10 mins depending on the number of epochs. 
+
+The predicted HSPs two standardised residual deviations (SRDs) away from the experimental values are selected as the outliers in each model. Examples of outliers analysis are provided in the following folds. The csv files in each folder contain the SMILES of molecules and the predicted and experimental HSPs from the 6 fold cross-validation of that model. 
+
+fps_xgboost_outliers_analysis/
+mol2vec_xgboost_outliers_analysis/
+mol2vec_ffnn_outliers_analysis/
+ChemBERTa_zinc-base_v1_analysis/
+ChemBERTa_77M_MTR_outliers_analysis/
+
+Code to analyse the functional groups of the outlier is provided in outliers_functional_groups_analysis/
+
+
+# Contact
+Jiayun Pang, twitter handle @JiayunPang, email j.pang@gre.ac.uk
+![image](https://github.com/jiayunpang/hsp_embedding/assets/137286135/839bcc96-be80-475d-b4b3-fa9b647faa83)
