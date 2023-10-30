@@ -70,6 +70,8 @@ The code is written in jupyter notebook and runs in an Anaconda environment. The
 
     conda install -c conda-forge openbabel
 
+A requirement.txt file is provided to be used to create a conda environment.    
+
 # Disclaimer
 The code was written by non-experts in order to perform a specific task with a specific dataset. Please exercise caution and initiative in deploying the code. 
 
